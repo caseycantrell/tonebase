@@ -55,7 +55,7 @@ It was definitely a choice I made! As I was familiarizing myself and experimenti
 
 ### 2. Why do the component names in JSX start with capital letters?
 
-Since JSX is a sort of a funky hybrid of JavaScript and HTML, we have to be careful with our syntax or the compiler isn't sure what we may be trying to do. In JSX if you give a component a name that starts with a lowercase letter, React will assume it's an HTML element since they're typically always lowercase. I say typically because it is possible for some HTML elements to be uppercase, but only if they have a property accessor (a dot). As an example, inside of React if you were to name a component "<component />", it would compile to "React.createElement('component')", which is an HTML tag. If you named that same component "<Component />", it would compile to "React.createElement(Component)", which is JSX.
+Since JSX is a sort of a funky hybrid of JavaScript and HTML, we have to be careful with our syntax or the compiler isn't sure what we may be trying to do. In JSX if you give a component a name that starts with a lowercase letter, React will assume it's an HTML element since they're typically always lowercase. I say typically because it is possible for some HTML elements to be uppercase, but only if they have a property accessor (a dot). As an example, inside of React if you were to name a component ```<component />```, it would compile to "React.createElement('component')", which is an HTML tag. If you named that same component ```<Component />```, it would compile to "React.createElement(Component)", which is JSX.
 
 ### 3. What are the main types of components you can render in React? When do you choose one over the other?
 
